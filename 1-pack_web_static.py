@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from fabric.api import *
 import os
 from datetime import datetime

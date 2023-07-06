@@ -1,51 +1,62 @@
-.filters{
-    background-color: white;
+/*
+ * === Filters style ===
+ */
+
+/* Filters style */
+.filters {
+    background-color: #ffffff;
     height: 70px;
     width: 100%;
-    border: solid 1px #DDDDDD;
-    border-radius: 4px;
-    text-align: right;
+    border: 1px solid #dddddd;
+   border-radius: 4px;
 }
-
-button{
-    margin-top: 11px;
-    margin-bottom: 11px;
-    margin-right: 30px;
+/* Search button style */
+.filters button{
     font-size: 18px;
-    background-color: #FF5A5F;
-    color: #FFFFFF;
+    background-color: #ff5a5f;
     height: 48px;
     width: 20%;
-    border: none;
     border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    float: right;
+   margin: 12px 30px;
 }
-button:hover{
-    opacity: 0.9;
+/*change opacity to 90% when the mouse is on the button*/
+.filters button:hover{
+    background-color: rgba(255, 90, 95, .9);
 }
+/*locations and amenities*/
+.locations,
+.amenities {
+    display: inline-block;
+    height: 100%;
+   width: 25%;
+}
+/*locations*/
 .locations{
-    text-align: left;
-    height: 100%;
-    width: 25%;
-    border-right: solid 1px #DDDDDD;
-    margin-left: 30px;
-    float: left;
+    border-right: 1px solid #dddddd;
 }
-.amenities{
-    text-align: left;
-    height: 100%;
-    width: 25%;
-    margin-left: 30px;
-    float: left;
+
+/* places header*/
+.filters h2,
+.filters h3,
+.filters h4 {
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border.box;
+	    box-sizing: border-box;
+ 	    margin: 0;
 }
-h3{
+/* Header 3 style */
+.filters h3 {
+    font-size: 1.17em;
     font-weight: 600;
-    margin: 0px;
-    margin-top: 17px;
-    padding: 0px;
+    height: 50%;
+    padding: 15.5px 0 0 30px;
 }
-h4{
-    margin: 0px;
-    padding: 0px;
-    font-weight: 400;
+.filters h4 {
     font-size: 14px;
+    font-weight: 400;
+    height: 50%;
+    padding: 5px 0 12px 30px;
 }

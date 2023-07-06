@@ -1,5 +1,8 @@
-from fabric.api import local
+from fabric.api import *
+import os
 from datetime import datetime
+
+env.hosts = ['localhost']
 
 def do_pack():
     """
